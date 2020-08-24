@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Raleway:wght@300&family=Work+Sans:wght@300&display=swap');
+/* ###################  HOME ############################# */
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 40px;
+}
+
+.header-content h1 {
+  font-family: 'Raleway', sans-serif;
+  color: hsl(171, 100%, 41%);
+}
+
+.header-content h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+.image img {
+  height: 800px;
+  width: 900px;
+}
+@media (max-width: 700px) {
+  .header {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .image {
+    text-align: center;
+    margin-left: 60px;
+  }
+
+  .img {
+    height: 300px;
+  }
+}
+
+/* ###################  signin  ################################ */
+
+.guidelines-section {
+  margin-top: 60px;
+  display: grid;
+  margin: 0px 80px;
+  margin-bottom: 40px;
+
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.guidelines-section .rules {
+  background-color: hsl(171, 100%, 41%);
+  padding-left: 20px;
+  padding: 20px 40px;
+  height: 100%;
+}
+.guidelines-section .feedback {
+  padding-left: 20px;
+}
+
+.rules {
+  color: white !important;
+}
+
+.rules h1 {
+  padding: 5px;
+}
+
+.container {
+  height: 100vh;
+}
+
+.sign {
+  margin-top: 60px;
+}
+
+.signin {
+  padding: 30px;
+}
+.signin label {
+  padding: 0 10px;
+}
+.signin button {
+  margin-top: 20px;
+}
+/* ##################### feedback ###############################333 */
+.feedback {
+  margin: 30px 50px;
+  padding: 20px 60px;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+@media (max-width: 700px) {
+  .guidelines-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .feedback {
+    padding: 10px 30px;
+  }
+}
+
+/* ########################333 all feeds ############################# */
+.allfeeds {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  margin: 50px 20px;
+}
